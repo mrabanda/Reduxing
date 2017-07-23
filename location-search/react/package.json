@@ -1,0 +1,35 @@
+{
+  "name": "location-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -w & node server",
+    "start": "node server",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "geocoder": "^0.2.2",
+    "mongoose": "^4.9.3",
+    "morgan": "^1.8.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "request": "^2.72.0",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "json-loader": "^0.5.4",
+    "webpack": "^3.3.0"
+  }
+}
