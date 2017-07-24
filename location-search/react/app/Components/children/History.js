@@ -9,7 +9,7 @@ const History = (props) => {
       <div className="panel-body text-center">
 
         {/* loop through history in props and return p tag with location and date */}
-        {props.history.map(function (search, i) {
+        {props.history.map((search, i) => {
           return (
             <p key={i}>{search.location} - {search.date}</p>
           );
